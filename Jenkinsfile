@@ -21,7 +21,7 @@ pipeline {
                               --subnet-id subnet-5b51263d --associate-public-ip-address \
                               --user-data file://aws/ec2-setup --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=demo-iebe}]' \
                               --iam-instance-profile Name=YPDeployRole --region eu-west-1"
-                      }
+
         }
       }
    }
